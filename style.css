@@ -1,0 +1,37 @@
+
+       <link rel="stylesheet" type="text/css" href="style.css">
+     body { width: AUTO;
+    height: AUTO;
+    margin: 0px;
+    padding: 15PX;
+  }
+     body{
+      background-image:url("orqa fon.jpg");
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: inherit;
+      background-origin: content-box;
+      background-attachment: scroll;
+       border-bottom: 50px silver;
+     }
+     #orqarang {background-color: rgb(209, 206, 206);
+
+     }
+     .wrapper {
+      column-count: 2;
+      column-width: 500px; 
+         column-gap: 30px;
+      padding: 15px;
+     }
+       .rasm {
+        margin: 15px;
+        padding: 25px;
+         grid-column: 1;
+         grid-row: 1/10;
+         width: 5000%;
+         height: 5000%;
+      } 
+        .registratsiya {
+         grid-column: 2/4;
+         grid-row: 1;
+        }
